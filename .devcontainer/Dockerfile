@@ -50,7 +50,16 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
+# Install URDF Visualizer
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends  ros-humble-urdf-tutorial \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+# git cloned https://github.com/AutonomyLab/create_robot manually. Instructions on their github
+# git cloned https://github.com/ROBOTIS-GIT/turtlebot3 manually
 # To change the display  >>export DISPLAY=:0
+# The host must allow docker to use its port >> xhost +
 # To check if gazebo wokrs >> gazebo --verbose
 # To list the running gazebos >> ps aux | grep gzserver
 # To setup the robot >> export TURTLEBOT3_MODEL=burger
