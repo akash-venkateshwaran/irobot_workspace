@@ -1,0 +1,23 @@
+[0.255s] Invoking command in '/workspaces/irobot_workspace/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/build/turtlebot3_teleop:/workspaces/irobot_workspace/build/turtlebot3_example:/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages /usr/bin/cmake --build /workspaces/irobot_workspace/build/dynamixel_sdk_examples -- -j20 -l20
+[0.321s] [100%] Built target read_write_node
+[0.687s] Invoked command in '/workspaces/irobot_workspace/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/build/turtlebot3_teleop:/workspaces/irobot_workspace/build/turtlebot3_example:/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages /usr/bin/cmake --build /workspaces/irobot_workspace/build/dynamixel_sdk_examples -- -j20 -l20
+[0.763s] Invoking command in '/workspaces/irobot_workspace/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/build/turtlebot3_teleop:/workspaces/irobot_workspace/build/turtlebot3_example:/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages /usr/bin/cmake --install /workspaces/irobot_workspace/build/dynamixel_sdk_examples
+[0.784s] -- Install configuration: "RelWithDebInfo"
+[0.785s] -- Execute custom install script
+[0.790s] -- Up-to-date symlink: /workspaces/irobot_workspace/install/lib/dynamixel_sdk_examples/read_write_node
+[0.790s] -- Up-to-date symlink: /workspaces/irobot_workspace/install/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[0.790s] -- Up-to-date symlink: /workspaces/irobot_workspace/install/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[0.790s] -- Up-to-date symlink: /workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[0.792s] -- Up-to-date symlink: /workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[0.792s] -- Up-to-date symlink: /workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/environment/path.sh
+[0.792s] -- Up-to-date symlink: /workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/environment/path.dsv
+[0.792s] -- Up-to-date symlink: /workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/local_setup.bash
+[0.792s] -- Up-to-date symlink: /workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/local_setup.sh
+[0.793s] -- Up-to-date symlink: /workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/local_setup.zsh
+[0.793s] -- Up-to-date symlink: /workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/local_setup.dsv
+[0.794s] -- Symlinking: /workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/package.dsv
+[0.809s] -- Up-to-date symlink: /workspaces/irobot_workspace/install/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[0.809s] -- Up-to-date symlink: /workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[0.809s] -- Up-to-date symlink: /workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[0.810s] -- Up-to-date symlink: /workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/package.xml
+[0.813s] Invoked command in '/workspaces/irobot_workspace/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/build/turtlebot3_teleop:/workspaces/irobot_workspace/build/turtlebot3_example:/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages /usr/bin/cmake --install /workspaces/irobot_workspace/build/dynamixel_sdk_examples

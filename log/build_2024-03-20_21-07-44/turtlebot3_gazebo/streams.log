@@ -1,0 +1,95 @@
+[0.088s] Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/irobot_workspace/build/turtlebot3_gazebo -- -j20 -l20
+[0.141s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_drive[0m
+[0.142s] [35m[1mConsolidate compiler generated dependencies of target obstacle2[0m
+[0.147s] [ 12%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[0.149s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[0.156s] [ 50%] Built target turtlebot3_drive
+[0.178s] [ 75%] Built target obstacle2
+[10.976s] [ 87%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[10.980s] [100%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[11.116s] [100%] Built target obstacle1
+[11.117s] [100%] Built target obstacles
+[11.122s] Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/irobot_workspace/build/turtlebot3_gazebo -- -j20 -l20
+[11.141s] Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/irobot_workspace/build/turtlebot3_gazebo
+[11.146s] -- Install configuration: "RelWithDebInfo"
+[11.147s] -- Execute custom install script
+[11.148s] -- Symlinking: /workspaces/irobot_workspace/install/lib/turtlebot3_gazebo/turtlebot3_drive
+[11.153s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[11.158s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[11.163s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py
+[11.167s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[11.171s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[11.176s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[11.180s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[11.184s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[11.187s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[11.192s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[11.196s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[11.200s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[11.204s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae
+[11.208s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae
+[11.212s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae
+[11.216s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae
+[11.220s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae
+[11.224s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[11.228s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_common/model.config
+[11.232s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[11.236s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[11.241s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[11.245s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[11.248s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[11.252s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[11.256s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[11.259s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[11.263s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[11.267s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[11.271s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+[11.275s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[11.279s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[11.283s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[11.287s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[11.291s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[11.294s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[11.298s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[11.303s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[11.306s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[11.310s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[11.314s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[11.318s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[11.321s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[11.325s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[11.329s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[11.334s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[11.338s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[11.342s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[11.346s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[11.349s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//urdf/common_properties.urdf
+[11.353s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf
+[11.357s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf
+[11.360s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf
+[11.365s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//worlds/empty_world.world
+[11.369s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world
+[11.373s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world
+[11.377s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world
+[11.381s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world
+[11.385s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//worlds/turtlebot3_house.world
+[11.389s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo//worlds/turtlebot3_world.world
+[11.393s] -- Symlinking: /workspaces/irobot_workspace/install/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[11.398s] -- Symlinking: /workspaces/irobot_workspace/install/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[11.402s] -- Symlinking: /workspaces/irobot_workspace/install/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[11.406s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[11.410s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[11.414s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo/environment/path.sh
+[11.417s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo/environment/path.dsv
+[11.421s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo/local_setup.bash
+[11.425s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo/local_setup.sh
+[11.430s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo/local_setup.zsh
+[11.434s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo/local_setup.dsv
+[11.438s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo/package.dsv
+[11.442s] -- Symlinking: /workspaces/irobot_workspace/install/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[11.446s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.450s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.454s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[11.458s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[11.462s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_gazebo/package.xml
+[11.468s] Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/irobot_workspace/build/turtlebot3_gazebo

@@ -1,0 +1,24 @@
+[0.684s] Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_example': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/build/turtlebot3_example/prefix_override:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /workspaces/irobot_workspace/build/turtlebot3_example/build --no-deps install_data
+[0.827s] running develop
+[0.827s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.827s]   warnings.warn(
+[0.828s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.828s]   warnings.warn(
+[0.898s] running egg_info
+[0.899s] writing turtlebot3_example.egg-info/PKG-INFO
+[0.899s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[0.899s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[0.899s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[0.899s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[0.901s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[0.901s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[0.902s] running build_ext
+[0.902s] Creating /workspaces/irobot_workspace/install/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[0.903s] Installing turtlebot3_obstacle_detection script to /workspaces/irobot_workspace/install/lib/turtlebot3_example
+[0.903s] Installing turtlebot3_patrol_client script to /workspaces/irobot_workspace/install/lib/turtlebot3_example
+[0.903s] Installing turtlebot3_patrol_server script to /workspaces/irobot_workspace/install/lib/turtlebot3_example
+[0.903s] Installing turtlebot3_position_control script to /workspaces/irobot_workspace/install/lib/turtlebot3_example
+[0.903s] 
+[0.903s] Installed /workspaces/irobot_workspace/build/turtlebot3_example
+[0.904s] running install_data
+[0.925s] Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/build/turtlebot3_example/prefix_override:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /workspaces/irobot_workspace/build/turtlebot3_example/build --no-deps install_data

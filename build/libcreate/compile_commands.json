@@ -1,0 +1,107 @@
+[
+{
+  "directory": "/workspaces/irobot_workspace/build/libcreate",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -Dcreate_EXPORTS -I/workspaces/irobot_workspace/src/libcreate/include -O2 -g -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -std=gnu++11 -o CMakeFiles/create.dir/src/create.cpp.o -c /workspaces/irobot_workspace/src/libcreate/src/create.cpp",
+  "file": "/workspaces/irobot_workspace/src/libcreate/src/create.cpp"
+},
+{
+  "directory": "/workspaces/irobot_workspace/build/libcreate",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -Dcreate_EXPORTS -I/workspaces/irobot_workspace/src/libcreate/include -O2 -g -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -std=gnu++11 -o CMakeFiles/create.dir/src/serial.cpp.o -c /workspaces/irobot_workspace/src/libcreate/src/serial.cpp",
+  "file": "/workspaces/irobot_workspace/src/libcreate/src/serial.cpp"
+},
+{
+  "directory": "/workspaces/irobot_workspace/build/libcreate",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -Dcreate_EXPORTS -I/workspaces/irobot_workspace/src/libcreate/include -O2 -g -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -std=gnu++11 -o CMakeFiles/create.dir/src/serial_stream.cpp.o -c /workspaces/irobot_workspace/src/libcreate/src/serial_stream.cpp",
+  "file": "/workspaces/irobot_workspace/src/libcreate/src/serial_stream.cpp"
+},
+{
+  "directory": "/workspaces/irobot_workspace/build/libcreate",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -Dcreate_EXPORTS -I/workspaces/irobot_workspace/src/libcreate/include -O2 -g -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -std=gnu++11 -o CMakeFiles/create.dir/src/serial_query.cpp.o -c /workspaces/irobot_workspace/src/libcreate/src/serial_query.cpp",
+  "file": "/workspaces/irobot_workspace/src/libcreate/src/serial_query.cpp"
+},
+{
+  "directory": "/workspaces/irobot_workspace/build/libcreate",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -Dcreate_EXPORTS -I/workspaces/irobot_workspace/src/libcreate/include -O2 -g -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -std=gnu++11 -o CMakeFiles/create.dir/src/data.cpp.o -c /workspaces/irobot_workspace/src/libcreate/src/data.cpp",
+  "file": "/workspaces/irobot_workspace/src/libcreate/src/data.cpp"
+},
+{
+  "directory": "/workspaces/irobot_workspace/build/libcreate",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -Dcreate_EXPORTS -I/workspaces/irobot_workspace/src/libcreate/include -O2 -g -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -std=gnu++11 -o CMakeFiles/create.dir/src/packet.cpp.o -c /workspaces/irobot_workspace/src/libcreate/src/packet.cpp",
+  "file": "/workspaces/irobot_workspace/src/libcreate/src/packet.cpp"
+},
+{
+  "directory": "/workspaces/irobot_workspace/build/libcreate",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -Dcreate_EXPORTS -I/workspaces/irobot_workspace/src/libcreate/include -O2 -g -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -std=gnu++11 -o CMakeFiles/create.dir/src/types.cpp.o -c /workspaces/irobot_workspace/src/libcreate/src/types.cpp",
+  "file": "/workspaces/irobot_workspace/src/libcreate/src/types.cpp"
+},
+{
+  "directory": "/workspaces/irobot_workspace/build/libcreate",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/workspaces/irobot_workspace/src/libcreate/include -O2 -g -DNDEBUG -Wall -Wextra -Wpedantic -std=gnu++11 -o CMakeFiles/battery_level.dir/examples/battery_level.cpp.o -c /workspaces/irobot_workspace/src/libcreate/examples/battery_level.cpp",
+  "file": "/workspaces/irobot_workspace/src/libcreate/examples/battery_level.cpp"
+},
+{
+  "directory": "/workspaces/irobot_workspace/build/libcreate",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/workspaces/irobot_workspace/src/libcreate/include -O2 -g -DNDEBUG -Wall -Wextra -Wpedantic -std=gnu++11 -o CMakeFiles/bumpers.dir/examples/bumpers.cpp.o -c /workspaces/irobot_workspace/src/libcreate/examples/bumpers.cpp",
+  "file": "/workspaces/irobot_workspace/src/libcreate/examples/bumpers.cpp"
+},
+{
+  "directory": "/workspaces/irobot_workspace/build/libcreate",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/workspaces/irobot_workspace/src/libcreate/include -O2 -g -DNDEBUG -Wall -Wextra -Wpedantic -std=gnu++11 -o CMakeFiles/cliffs.dir/examples/cliffs.cpp.o -c /workspaces/irobot_workspace/src/libcreate/examples/cliffs.cpp",
+  "file": "/workspaces/irobot_workspace/src/libcreate/examples/cliffs.cpp"
+},
+{
+  "directory": "/workspaces/irobot_workspace/build/libcreate",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/workspaces/irobot_workspace/src/libcreate/include -O2 -g -DNDEBUG -Wall -Wextra -Wpedantic -std=gnu++11 -o CMakeFiles/drive_circle.dir/examples/drive_circle.cpp.o -c /workspaces/irobot_workspace/src/libcreate/examples/drive_circle.cpp",
+  "file": "/workspaces/irobot_workspace/src/libcreate/examples/drive_circle.cpp"
+},
+{
+  "directory": "/workspaces/irobot_workspace/build/libcreate",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/workspaces/irobot_workspace/src/libcreate/include -O2 -g -DNDEBUG -Wall -Wextra -Wpedantic -std=gnu++11 -o CMakeFiles/leds.dir/examples/leds.cpp.o -c /workspaces/irobot_workspace/src/libcreate/examples/leds.cpp",
+  "file": "/workspaces/irobot_workspace/src/libcreate/examples/leds.cpp"
+},
+{
+  "directory": "/workspaces/irobot_workspace/build/libcreate",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/workspaces/irobot_workspace/src/libcreate/include -O2 -g -DNDEBUG -Wall -Wextra -Wpedantic -std=gnu++11 -o CMakeFiles/packets.dir/examples/packets.cpp.o -c /workspaces/irobot_workspace/src/libcreate/examples/packets.cpp",
+  "file": "/workspaces/irobot_workspace/src/libcreate/examples/packets.cpp"
+},
+{
+  "directory": "/workspaces/irobot_workspace/build/libcreate",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/workspaces/irobot_workspace/src/libcreate/include -O2 -g -DNDEBUG -Wall -Wextra -Wpedantic -std=gnu++11 -o CMakeFiles/play_song.dir/examples/play_song.cpp.o -c /workspaces/irobot_workspace/src/libcreate/examples/play_song.cpp",
+  "file": "/workspaces/irobot_workspace/src/libcreate/examples/play_song.cpp"
+},
+{
+  "directory": "/workspaces/irobot_workspace/build/libcreate",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/workspaces/irobot_workspace/src/libcreate/include -O2 -g -DNDEBUG -Wall -Wextra -Wpedantic -std=gnu++11 -o CMakeFiles/wheeldrop.dir/examples/wheeldrop.cpp.o -c /workspaces/irobot_workspace/src/libcreate/examples/wheeldrop.cpp",
+  "file": "/workspaces/irobot_workspace/src/libcreate/examples/wheeldrop.cpp"
+},
+{
+  "directory": "/workspaces/irobot_workspace/build/libcreate",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/workspaces/irobot_workspace/src/libcreate/include -O2 -g -DNDEBUG -Wall -Wextra -Wpedantic -DGTEST_HAS_PTHREAD=1 -std=gnu++11 -o CMakeFiles/test_create.dir/tests/test_create.cpp.o -c /workspaces/irobot_workspace/src/libcreate/tests/test_create.cpp",
+  "file": "/workspaces/irobot_workspace/src/libcreate/tests/test_create.cpp"
+},
+{
+  "directory": "/workspaces/irobot_workspace/build/libcreate",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/workspaces/irobot_workspace/src/libcreate/include -O2 -g -DNDEBUG -Wall -Wextra -Wpedantic -DGTEST_HAS_PTHREAD=1 -std=gnu++11 -o CMakeFiles/test_data.dir/tests/test_data.cpp.o -c /workspaces/irobot_workspace/src/libcreate/tests/test_data.cpp",
+  "file": "/workspaces/irobot_workspace/src/libcreate/tests/test_data.cpp"
+},
+{
+  "directory": "/workspaces/irobot_workspace/build/libcreate",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/workspaces/irobot_workspace/src/libcreate/include -O2 -g -DNDEBUG -Wall -Wextra -Wpedantic -DGTEST_HAS_PTHREAD=1 -std=gnu++11 -o CMakeFiles/test_packet.dir/tests/test_packet.cpp.o -c /workspaces/irobot_workspace/src/libcreate/tests/test_packet.cpp",
+  "file": "/workspaces/irobot_workspace/src/libcreate/tests/test_packet.cpp"
+},
+{
+  "directory": "/workspaces/irobot_workspace/build/libcreate",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/workspaces/irobot_workspace/src/libcreate/include -O2 -g -DNDEBUG -Wall -Wextra -Wpedantic -DGTEST_HAS_PTHREAD=1 -std=gnu++11 -o CMakeFiles/test_robot_model.dir/tests/test_robot_model.cpp.o -c /workspaces/irobot_workspace/src/libcreate/tests/test_robot_model.cpp",
+  "file": "/workspaces/irobot_workspace/src/libcreate/tests/test_robot_model.cpp"
+},
+{
+  "directory": "/workspaces/irobot_workspace/build/libcreate",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/workspaces/irobot_workspace/src/libcreate/include -O2 -g -DNDEBUG -Wall -Wextra -Wpedantic -DGTEST_HAS_PTHREAD=1 -std=gnu++11 -o CMakeFiles/test_serial_stream.dir/tests/test_serial_stream.cpp.o -c /workspaces/irobot_workspace/src/libcreate/tests/test_serial_stream.cpp",
+  "file": "/workspaces/irobot_workspace/src/libcreate/tests/test_serial_stream.cpp"
+},
+{
+  "directory": "/workspaces/irobot_workspace/build/libcreate",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/workspaces/irobot_workspace/src/libcreate/include -O2 -g -DNDEBUG -Wall -Wextra -Wpedantic -DGTEST_HAS_PTHREAD=1 -std=gnu++11 -o CMakeFiles/test_serial_query.dir/tests/test_serial_query.cpp.o -c /workspaces/irobot_workspace/src/libcreate/tests/test_serial_query.cpp",
+  "file": "/workspaces/irobot_workspace/src/libcreate/tests/test_serial_query.cpp"
+}
+]

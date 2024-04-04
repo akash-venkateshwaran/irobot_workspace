@@ -1,0 +1,14 @@
+/workspaces/irobot_workspace/install/lib/libcreate.so
+/workspaces/irobot_workspace/install/include/create/serial_query.h
+/workspaces/irobot_workspace/install/include/create/util.h
+/workspaces/irobot_workspace/install/include/create/packet.h
+/workspaces/irobot_workspace/install/include/create/create.h
+/workspaces/irobot_workspace/install/include/create/serial.h
+/workspaces/irobot_workspace/install/include/create/serial_stream.h
+/workspaces/irobot_workspace/install/include/create/data.h
+/workspaces/irobot_workspace/install/include/create/types.h
+/workspaces/irobot_workspace/install/lib/cmake/libcreate/libcreate-config.cmake
+/workspaces/irobot_workspace/install/lib/cmake/libcreate/libcreate-config-version.cmake
+/workspaces/irobot_workspace/install/lib/cmake/libcreate/libcreate-targets.cmake
+/workspaces/irobot_workspace/install/lib/cmake/libcreate/libcreate-targets-relwithdebinfo.cmake
+/workspaces/irobot_workspace/install/share/libcreate/package.xml

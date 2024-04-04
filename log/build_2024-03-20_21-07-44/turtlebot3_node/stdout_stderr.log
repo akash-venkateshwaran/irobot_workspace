@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target turtlebot3_node_lib[0m
+[ 85%] Built target turtlebot3_node_lib
+[35m[1mConsolidate compiler generated dependencies of target turtlebot3_ros[0m
+[100%] Built target turtlebot3_ros
+-- Install configuration: "RelWithDebInfo"
+-- Execute custom install script
+-- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_node/param/burger.yaml
+-- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_node/param/waffle.yaml
+-- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_node/param/waffle_pi.yaml
+-- Symlinking: /workspaces/irobot_workspace/install/lib/turtlebot3_node/turtlebot3_ros
+-- Symlinking: /workspaces/irobot_workspace/install/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+-- Symlinking: /workspaces/irobot_workspace/install/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+-- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_node/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_node/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_node/environment/path.sh
+-- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_node/environment/path.dsv
+-- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_node/local_setup.bash
+-- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_node/local_setup.sh
+-- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_node/local_setup.zsh
+-- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_node/local_setup.dsv
+-- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_node/package.dsv
+-- Symlinking: /workspaces/irobot_workspace/install/share/ament_index/resource_index/packages/turtlebot3_node
+-- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+-- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+-- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_node/package.xml

@@ -1,0 +1,15 @@
+/workspaces/irobot_workspace/install/share/ament_index/resource_index/package_run_dependencies/create_robot
+/workspaces/irobot_workspace/install/share/ament_index/resource_index/parent_prefix_path/create_robot
+/workspaces/irobot_workspace/install/share/create_robot/environment/ament_prefix_path.sh
+/workspaces/irobot_workspace/install/share/create_robot/environment/ament_prefix_path.dsv
+/workspaces/irobot_workspace/install/share/create_robot/environment/path.sh
+/workspaces/irobot_workspace/install/share/create_robot/environment/path.dsv
+/workspaces/irobot_workspace/install/share/create_robot/local_setup.bash
+/workspaces/irobot_workspace/install/share/create_robot/local_setup.sh
+/workspaces/irobot_workspace/install/share/create_robot/local_setup.zsh
+/workspaces/irobot_workspace/install/share/create_robot/local_setup.dsv
+/workspaces/irobot_workspace/install/share/create_robot/package.dsv
+/workspaces/irobot_workspace/install/share/ament_index/resource_index/packages/create_robot
+/workspaces/irobot_workspace/install/share/create_robot/cmake/create_robotConfig.cmake
+/workspaces/irobot_workspace/install/share/create_robot/cmake/create_robotConfig-version.cmake
+/workspaces/irobot_workspace/install/share/create_robot/package.xml

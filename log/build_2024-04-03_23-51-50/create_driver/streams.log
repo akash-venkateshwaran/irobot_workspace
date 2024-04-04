@@ -1,0 +1,79 @@
+[0.036s] Invoking command in '/workspaces/irobot_workspace/build/create_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PKG_CONFIG_PATH=/workspaces/irobot_workspace/install/lib/x86_64-linux-gnu/pkgconfig:/workspaces/irobot_workspace/install/lib/pkgconfig PYTHONPATH=/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/build/turtlebot3_teleop:/workspaces/irobot_workspace/build/turtlebot3_example:/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages /usr/bin/cmake /workspaces/irobot_workspace/src/create_robot/create_driver -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.104s] -- The CXX compiler identification is GNU 11.4.0
+[0.109s] -- Detecting C compiler ABI info
+[0.148s] -- Detecting C compiler ABI info - done
+[0.153s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.153s] -- Detecting C compile features
+[0.153s] -- Detecting C compile features - done
+[0.155s] -- Detecting CXX compiler ABI info
+[0.199s] -- Detecting CXX compiler ABI info - done
+[0.203s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.204s] -- Detecting CXX compile features
+[0.204s] -- Detecting CXX compile features - done
+[0.300s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system thread 
+[0.302s] -- Found Threads: TRUE  
+[0.304s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.397s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.443s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.461s] -- Found create_msgs: 3.1.0 (/workspaces/irobot_workspace/install/share/create_msgs/cmake)
+[0.486s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.489s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.495s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.504s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.516s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.595s] -- Found diagnostic_msgs: 4.2.3 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[0.630s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[0.693s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.697s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.800s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.819s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.854s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.974s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.009s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.072s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.133s] -- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.148s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.149s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.149s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.452s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.512s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.512s] -- Configured cppcheck language: c++
+[1.512s] -- Configured cppcheck include dirs: /workspaces/irobot_workspace/src/create_robot/create_driver/include
+[1.512s] -- Configured cppcheck exclude dirs and/or files: 
+[1.513s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.513s] -- Configured cpplint exclude dirs and/or files: 
+[1.514s] -- Added test 'lint_cmake' to check CMake code style
+[1.515s] -- Added test 'xmllint' to check XML markup files
+[1.516s] -- Configuring done
+[1.527s] -- Generating done
+[1.528s] -- Build files have been written to: /workspaces/irobot_workspace/build/create_driver
+[1.536s] Invoked command in '/workspaces/irobot_workspace/build/create_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PKG_CONFIG_PATH=/workspaces/irobot_workspace/install/lib/x86_64-linux-gnu/pkgconfig:/workspaces/irobot_workspace/install/lib/pkgconfig PYTHONPATH=/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/build/turtlebot3_teleop:/workspaces/irobot_workspace/build/turtlebot3_example:/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages /usr/bin/cmake /workspaces/irobot_workspace/src/create_robot/create_driver -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[1.537s] Invoking command in '/workspaces/irobot_workspace/build/create_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PKG_CONFIG_PATH=/workspaces/irobot_workspace/install/lib/x86_64-linux-gnu/pkgconfig:/workspaces/irobot_workspace/install/lib/pkgconfig PYTHONPATH=/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/build/turtlebot3_teleop:/workspaces/irobot_workspace/build/turtlebot3_example:/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages /usr/bin/cmake --build /workspaces/irobot_workspace/build/create_driver -- -j20 -l20
+[1.562s] [ 50%] [32mBuilding CXX object CMakeFiles/create_driver.dir/src/create_driver.cpp.o[0m
+[42.240s] [100%] [32m[1mLinking CXX executable create_driver[0m
+[42.861s] [100%] Built target create_driver
+[42.867s] Invoked command in '/workspaces/irobot_workspace/build/create_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PKG_CONFIG_PATH=/workspaces/irobot_workspace/install/lib/x86_64-linux-gnu/pkgconfig:/workspaces/irobot_workspace/install/lib/pkgconfig PYTHONPATH=/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/build/turtlebot3_teleop:/workspaces/irobot_workspace/build/turtlebot3_example:/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages /usr/bin/cmake --build /workspaces/irobot_workspace/build/create_driver -- -j20 -l20
+[42.881s] Invoking command in '/workspaces/irobot_workspace/build/create_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PKG_CONFIG_PATH=/workspaces/irobot_workspace/install/lib/x86_64-linux-gnu/pkgconfig:/workspaces/irobot_workspace/install/lib/pkgconfig PYTHONPATH=/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/build/turtlebot3_teleop:/workspaces/irobot_workspace/build/turtlebot3_example:/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages /usr/bin/cmake --install /workspaces/irobot_workspace/build/create_driver
+[42.884s] -- Install configuration: "RelWithDebInfo"
+[42.884s] -- Execute custom install script
+[42.884s] -- Symlinking: /workspaces/irobot_workspace/install/lib/create_driver/create_driver
+[42.889s] -- Symlinking: /workspaces/irobot_workspace/install/share/ament_index/resource_index/package_run_dependencies/create_driver
+[42.893s] -- Symlinking: /workspaces/irobot_workspace/install/share/ament_index/resource_index/parent_prefix_path/create_driver
+[42.897s] -- Symlinking: /workspaces/irobot_workspace/install/share/create_driver/environment/ament_prefix_path.sh
+[42.901s] -- Symlinking: /workspaces/irobot_workspace/install/share/create_driver/environment/ament_prefix_path.dsv
+[42.905s] -- Symlinking: /workspaces/irobot_workspace/install/share/create_driver/environment/path.sh
+[42.909s] -- Symlinking: /workspaces/irobot_workspace/install/share/create_driver/environment/path.dsv
+[42.914s] -- Symlinking: /workspaces/irobot_workspace/install/share/create_driver/local_setup.bash
+[42.918s] -- Symlinking: /workspaces/irobot_workspace/install/share/create_driver/local_setup.sh
+[42.923s] -- Symlinking: /workspaces/irobot_workspace/install/share/create_driver/local_setup.zsh
+[42.927s] -- Symlinking: /workspaces/irobot_workspace/install/share/create_driver/local_setup.dsv
+[42.931s] -- Symlinking: /workspaces/irobot_workspace/install/share/create_driver/package.dsv
+[42.935s] -- Symlinking: /workspaces/irobot_workspace/install/share/ament_index/resource_index/packages/create_driver
+[42.939s] -- Symlinking: /workspaces/irobot_workspace/install/share/create_driver/cmake/create_driverConfig.cmake
+[42.943s] -- Symlinking: /workspaces/irobot_workspace/install/share/create_driver/cmake/create_driverConfig-version.cmake
+[42.946s] -- Symlinking: /workspaces/irobot_workspace/install/share/create_driver/package.xml
+[42.950s] -- Up-to-date: /workspaces/irobot_workspace/install/include
+[42.950s] -- Installing: /workspaces/irobot_workspace/install/include/create_driver
+[42.951s] -- Installing: /workspaces/irobot_workspace/install/include/create_driver/create_driver.h
+[42.952s] Invoked command in '/workspaces/irobot_workspace/build/create_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PKG_CONFIG_PATH=/workspaces/irobot_workspace/install/lib/x86_64-linux-gnu/pkgconfig:/workspaces/irobot_workspace/install/lib/pkgconfig PYTHONPATH=/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/build/turtlebot3_teleop:/workspaces/irobot_workspace/build/turtlebot3_example:/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages /usr/bin/cmake --install /workspaces/irobot_workspace/build/create_driver

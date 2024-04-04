@@ -1,0 +1,1009 @@
+[0.581s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--merge-install', '--symlink-install', '--cmake-args', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic']
+[0.582s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=True, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa30c4de7d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa30c4de1a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa30c4de1a0>>)
+[0.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.621s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspaces/irobot_workspace'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore_ament_install'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_pkg']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_pkg'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_meta']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_meta'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ros']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ros'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['cmake', 'python']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'cmake'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['python_setup_py']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python_setup_py'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ignore'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ignore_ament_install'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_pkg']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_pkg'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_meta']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_meta'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['ros']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ros'
+[0.638s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk' with type 'ros.ament_cmake' and name 'dynamixel_sdk'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore_ament_install'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_pkg']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_meta']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_meta'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ros']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ros'
+[0.638s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with type 'ros.ament_cmake' and name 'dynamixel_sdk_custom_interfaces'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore_ament_install'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_pkg']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_pkg'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_meta']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_meta'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ros']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ros'
+[0.639s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk_examples' with type 'ros.ament_cmake' and name 'dynamixel_sdk_examples'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ignore'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ignore_ament_install'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['colcon_pkg']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'colcon_pkg'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['colcon_meta']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'colcon_meta'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['ros']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ros'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['cmake', 'python']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'cmake'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'python'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['python_setup_py']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'python_setup_py'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'ignore_ament_install'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['colcon_pkg']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'colcon_pkg'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['colcon_meta']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'colcon_meta'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['ros']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'ros'
+[0.641s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3' with type 'ros.ament_cmake' and name 'turtlebot3'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'ignore'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'ignore_ament_install'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extensions ['colcon_pkg']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'colcon_pkg'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extensions ['colcon_meta']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'colcon_meta'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extensions ['ros']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'ros'
+[0.642s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_bringup' with type 'ros.ament_cmake' and name 'turtlebot3_bringup'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extension 'ignore'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extension 'ignore_ament_install'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extensions ['colcon_pkg']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extension 'colcon_pkg'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extensions ['colcon_meta']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extension 'colcon_meta'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extensions ['ros']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extension 'ros'
+[0.642s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_cartographer' with type 'ros.ament_cmake' and name 'turtlebot3_cartographer'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extensions ['ignore', 'ignore_ament_install']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'ignore'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'ignore_ament_install'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extensions ['colcon_pkg']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'colcon_pkg'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extensions ['colcon_meta']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'colcon_meta'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extensions ['ros']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'ros'
+[0.643s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_description' with type 'ros.ament_cmake' and name 'turtlebot3_description'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extensions ['ignore', 'ignore_ament_install']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'ignore'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'ignore_ament_install'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extensions ['colcon_pkg']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'colcon_pkg'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extensions ['colcon_meta']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'colcon_meta'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extensions ['ros']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'ros'
+[0.644s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_example' with type 'ros.ament_python' and name 'turtlebot3_example'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extension 'ignore'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extension 'ignore_ament_install'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extensions ['colcon_pkg']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extension 'colcon_pkg'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extensions ['colcon_meta']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extension 'colcon_meta'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extensions ['ros']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extension 'ros'
+[0.645s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_navigation2' with type 'ros.ament_cmake' and name 'turtlebot3_navigation2'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extensions ['ignore', 'ignore_ament_install']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'ignore'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'ignore_ament_install'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extensions ['colcon_pkg']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'colcon_pkg'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extensions ['colcon_meta']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'colcon_meta'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extensions ['ros']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'ros'
+[0.646s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_node' with type 'ros.ament_cmake' and name 'turtlebot3_node'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'ignore'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'ignore_ament_install'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extensions ['colcon_pkg']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'colcon_pkg'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extensions ['colcon_meta']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'colcon_meta'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extensions ['ros']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'ros'
+[0.647s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_teleop' with type 'ros.ament_python' and name 'turtlebot3_teleop'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extension 'ignore_ament_install'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extensions ['colcon_pkg']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extension 'colcon_pkg'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extensions ['colcon_meta']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extension 'colcon_meta'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extensions ['ros']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extension 'ros'
+[0.647s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_msgs' with type 'ros.ament_cmake' and name 'turtlebot3_msgs'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ignore'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ros'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['cmake', 'python']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'cmake'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'python'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['python_setup_py']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'python_setup_py'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ros'
+[0.649s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_fake_node' with type 'ros.ament_cmake' and name 'turtlebot3_fake_node'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_pkg'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_meta']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_meta'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ros']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ros'
+[0.650s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_meta'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ros']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ros'
+[0.651s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_simulations' with type 'ros.ament_cmake' and name 'turtlebot3_simulations'
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic']'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.702s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/irobot_workspace/build/dynamixel_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/irobot_workspace/install', 'merge_install': True, 'path': '/workspaces/irobot_workspace/src/DynamixelSDK/dynamixel_sdk', 'symlink_install': True, 'test_result_base': None}
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic']'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.708s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/irobot_workspace/build/dynamixel_sdk_custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/irobot_workspace/install', 'merge_install': True, 'path': '/workspaces/irobot_workspace/src/DynamixelSDK/dynamixel_sdk_custom_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic']'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_target' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.716s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/irobot_workspace/build/turtlebot3_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/irobot_workspace/install', 'merge_install': True, 'path': '/workspaces/irobot_workspace/src/turtlebot3/turtlebot3_cartographer', 'symlink_install': True, 'test_result_base': None}
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic']'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_target' from command line to 'None'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.722s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/irobot_workspace/build/turtlebot3_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/irobot_workspace/install', 'merge_install': True, 'path': '/workspaces/irobot_workspace/src/turtlebot3/turtlebot3_description', 'symlink_install': True, 'test_result_base': None}
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic']'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.729s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/irobot_workspace/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/irobot_workspace/install', 'merge_install': True, 'path': '/workspaces/irobot_workspace/src/turtlebot3_simulations/turtlebot3_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic']'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'cmake_target' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.735s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/irobot_workspace/build/turtlebot3_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/irobot_workspace/install', 'merge_install': True, 'path': '/workspaces/irobot_workspace/src/turtlebot3_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic']'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_target' from command line to 'None'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.742s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/irobot_workspace/build/turtlebot3_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/irobot_workspace/install', 'merge_install': True, 'path': '/workspaces/irobot_workspace/src/turtlebot3/turtlebot3_navigation2', 'symlink_install': True, 'test_result_base': None}
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic']'
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_target' from command line to 'None'
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.749s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/irobot_workspace/build/turtlebot3_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/irobot_workspace/install', 'merge_install': True, 'path': '/workspaces/irobot_workspace/src/turtlebot3/turtlebot3_teleop', 'symlink_install': True, 'test_result_base': None}
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic']'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.755s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/irobot_workspace/build/dynamixel_sdk_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/irobot_workspace/install', 'merge_install': True, 'path': '/workspaces/irobot_workspace/src/DynamixelSDK/dynamixel_sdk_examples', 'symlink_install': True, 'test_result_base': None}
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic']'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_target' from command line to 'None'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.761s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/irobot_workspace/build/turtlebot3_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/irobot_workspace/install', 'merge_install': True, 'path': '/workspaces/irobot_workspace/src/turtlebot3/turtlebot3_example', 'symlink_install': True, 'test_result_base': None}
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic']'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.767s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_fake_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/irobot_workspace/build/turtlebot3_fake_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/irobot_workspace/install', 'merge_install': True, 'path': '/workspaces/irobot_workspace/src/turtlebot3_simulations/turtlebot3_fake_node', 'symlink_install': True, 'test_result_base': None}
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic']'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_target' from command line to 'None'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.774s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/irobot_workspace/build/turtlebot3_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/irobot_workspace/install', 'merge_install': True, 'path': '/workspaces/irobot_workspace/src/turtlebot3/turtlebot3_node', 'symlink_install': True, 'test_result_base': None}
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic']'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_target' from command line to 'None'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.780s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/irobot_workspace/build/turtlebot3_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/irobot_workspace/install', 'merge_install': True, 'path': '/workspaces/irobot_workspace/src/turtlebot3/turtlebot3_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic']'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.787s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/irobot_workspace/build/turtlebot3_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/irobot_workspace/install', 'merge_install': True, 'path': '/workspaces/irobot_workspace/src/turtlebot3_simulations/turtlebot3_simulations', 'symlink_install': True, 'test_result_base': None}
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic']'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_target' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_clean_first' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_force_configure' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'ament_cmake_args' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.793s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/irobot_workspace/build/turtlebot3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=On', '-Wall', '-Wextra', '-Wpedantic'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/irobot_workspace/install', 'merge_install': True, 'path': '/workspaces/irobot_workspace/src/turtlebot3/turtlebot3', 'symlink_install': True, 'test_result_base': None}
+[0.799s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.806s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.807s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/irobot_workspace/src/turtlebot3_msgs' with build type 'ament_cmake'
+[0.807s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/irobot_workspace/src/turtlebot3_msgs'
+[0.818s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.818s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.818s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.835s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/irobot_workspace/src/DynamixelSDK/dynamixel_sdk' with build type 'ament_cmake'
+[0.835s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/irobot_workspace/src/DynamixelSDK/dynamixel_sdk'
+[0.843s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.843s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.857s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/irobot_workspace/src/turtlebot3/turtlebot3_description' with build type 'ament_cmake'
+[0.857s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/irobot_workspace/src/turtlebot3/turtlebot3_description'
+[0.865s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.865s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.881s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/irobot_workspace/src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with build type 'ament_cmake'
+[0.881s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/irobot_workspace/src/DynamixelSDK/dynamixel_sdk_custom_interfaces'
+[0.890s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.890s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.904s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/irobot_workspace/src/turtlebot3/turtlebot3_cartographer' with build type 'ament_cmake'
+[0.905s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/irobot_workspace/src/turtlebot3/turtlebot3_cartographer'
+[0.914s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.914s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.929s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/irobot_workspace/src/turtlebot3_simulations/turtlebot3_gazebo' with build type 'ament_cmake'
+[0.929s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/irobot_workspace/src/turtlebot3_simulations/turtlebot3_gazebo'
+[0.936s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.936s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.951s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/irobot_workspace/src/turtlebot3/turtlebot3_navigation2' with build type 'ament_cmake'
+[0.951s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/irobot_workspace/src/turtlebot3/turtlebot3_navigation2'
+[0.958s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.958s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.973s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspaces/irobot_workspace/src/turtlebot3/turtlebot3_teleop' with build type 'ament_python'
+[0.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_teleop', 'ament_prefix_path')
+[0.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_teleop/hook/ament_prefix_path.ps1'
+[0.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_teleop/hook/ament_prefix_path.dsv'
+[0.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_teleop/hook/ament_prefix_path.sh'
+[0.990s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.990s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/irobot_workspace/src/turtlebot3_msgs -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[1.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/irobot_workspace/src/DynamixelSDK/dynamixel_sdk -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[1.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/irobot_workspace/src/turtlebot3/turtlebot3_description -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[1.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/irobot_workspace/src/DynamixelSDK/dynamixel_sdk_custom_interfaces -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[1.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/irobot_workspace/src/turtlebot3/turtlebot3_cartographer -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[1.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/irobot_workspace/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[1.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/irobot_workspace/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[1.177s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspaces/irobot_workspace/src/turtlebot3/turtlebot3_teleop'
+[1.184s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.184s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_teleop': PYTHONPATH=/workspaces/irobot_workspace/build/turtlebot3_teleop/prefix_override:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /workspaces/irobot_workspace/build/turtlebot3_teleop/build --no-deps install_data
+[1.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/irobot_workspace/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[1.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/irobot_workspace/build/turtlebot3_navigation2 -- -j20 -l20
+[1.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/irobot_workspace/src/turtlebot3/turtlebot3_cartographer -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[1.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/irobot_workspace/build/turtlebot3_cartographer -- -j20 -l20
+[1.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/irobot_workspace/src/DynamixelSDK/dynamixel_sdk -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[1.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/irobot_workspace/build/dynamixel_sdk -- -j20 -l20
+[1.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/irobot_workspace/build/turtlebot3_navigation2 -- -j20 -l20
+[1.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/irobot_workspace/build/turtlebot3_cartographer -- -j20 -l20
+[1.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/irobot_workspace/build/turtlebot3_navigation2
+[1.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/irobot_workspace/build/turtlebot3_cartographer
+[1.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/irobot_workspace/src/turtlebot3/turtlebot3_description -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[1.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/irobot_workspace/build/turtlebot3_description -- -j20 -l20
+[1.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/irobot_workspace/build/turtlebot3_description -- -j20 -l20
+[1.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/irobot_workspace/build/turtlebot3_description
+[1.832s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_cartographer)
+[1.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/irobot_workspace/build/turtlebot3_cartographer
+[1.853s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake module files
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake config files
+[1.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_cartographer', 'cmake_prefix_path')
+[1.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_cartographer/hook/cmake_prefix_path.ps1'
+[1.871s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_cartographer/hook/cmake_prefix_path.dsv'
+[1.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_cartographer/hook/cmake_prefix_path.sh'
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib'
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/pkgconfig/turtlebot3_cartographer.pc'
+[1.873s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/python3.10/site-packages'
+[1.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_cartographer', 'pythonpath')
+[1.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_cartographer/hook/pythonpath.ps1'
+[1.884s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_cartographer/hook/pythonpath.dsv'
+[1.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_cartographer/hook/pythonpath.sh'
+[1.886s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[1.894s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_cartographer/package.ps1'
+[1.896s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_cartographer/package.dsv'
+[1.897s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_cartographer/package.sh'
+[1.898s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_cartographer/package.bash'
+[1.900s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_cartographer/package.zsh'
+[1.901s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/irobot_workspace/install/share/colcon-core/packages/turtlebot3_cartographer)
+[1.904s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_navigation2)
+[1.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/irobot_workspace/build/turtlebot3_navigation2
+[1.927s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake module files
+[1.928s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake config files
+[1.929s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_navigation2', 'cmake_prefix_path')
+[1.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_navigation2/hook/cmake_prefix_path.ps1'
+[1.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_navigation2/hook/cmake_prefix_path.dsv'
+[1.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_navigation2/hook/cmake_prefix_path.sh'
+[1.945s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib'
+[1.945s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[1.945s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/pkgconfig/turtlebot3_navigation2.pc'
+[1.945s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/python3.10/site-packages'
+[1.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_navigation2', 'pythonpath')
+[1.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_navigation2/hook/pythonpath.ps1'
+[1.962s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_navigation2/hook/pythonpath.dsv'
+[1.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_navigation2/hook/pythonpath.sh'
+[1.963s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[1.974s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_navigation2/package.ps1'
+[1.974s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_navigation2/package.dsv'
+[1.975s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_navigation2/package.sh'
+[1.976s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_navigation2/package.bash'
+[1.976s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_navigation2/package.zsh'
+[1.976s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/irobot_workspace/install/share/colcon-core/packages/turtlebot3_navigation2)
+[1.990s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_cartographer)
+[1.999s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake module files
+[2.000s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake config files
+[2.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_cartographer', 'cmake_prefix_path')
+[2.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_cartographer/hook/cmake_prefix_path.ps1'
+[2.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_cartographer/hook/cmake_prefix_path.dsv'
+[2.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_cartographer/hook/cmake_prefix_path.sh'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/pkgconfig/turtlebot3_cartographer.pc'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/python3.10/site-packages'
+[2.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_cartographer', 'pythonpath')
+[2.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_cartographer/hook/pythonpath.ps1'
+[2.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_cartographer/hook/pythonpath.dsv'
+[2.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_cartographer/hook/pythonpath.sh'
+[2.028s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[2.036s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_cartographer/package.ps1'
+[2.036s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_cartographer/package.dsv'
+[2.036s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_cartographer/package.sh'
+[2.037s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_cartographer/package.bash'
+[2.037s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_cartographer/package.zsh'
+[2.037s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/irobot_workspace/install/share/colcon-core/packages/turtlebot3_cartographer)
+[2.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_teleop', 'pythonpath_develop')
+[2.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_teleop' returned '0': PYTHONPATH=/workspaces/irobot_workspace/build/turtlebot3_teleop/prefix_override:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /workspaces/irobot_workspace/build/turtlebot3_teleop/build --no-deps install_data
+[2.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/build/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath_develop.ps1'
+[2.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/build/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath_develop.dsv'
+[2.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/build/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath_develop.sh'
+[2.075s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake module files
+[2.076s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake config files
+[2.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_teleop', 'cmake_prefix_path')
+[2.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_teleop/hook/cmake_prefix_path.ps1'
+[2.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_teleop/hook/cmake_prefix_path.dsv'
+[2.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_teleop/hook/cmake_prefix_path.sh'
+[2.088s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib'
+[2.088s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[2.088s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/pkgconfig/turtlebot3_teleop.pc'
+[2.089s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/python3.10/site-packages'
+[2.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_teleop', 'pythonpath')
+[2.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_teleop/hook/pythonpath.ps1'
+[2.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_teleop/hook/pythonpath.dsv'
+[2.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_teleop/hook/pythonpath.sh'
+[2.100s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[2.100s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_teleop)
+[2.115s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_teleop/package.ps1'
+[2.117s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_teleop/package.dsv'
+[2.117s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_teleop/package.sh'
+[2.118s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_teleop/package.bash'
+[2.118s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_teleop/package.zsh'
+[2.118s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/irobot_workspace/install/share/colcon-core/packages/turtlebot3_teleop)
+[2.131s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_navigation2)
+[2.139s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake module files
+[2.140s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake config files
+[2.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_navigation2', 'cmake_prefix_path')
+[2.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_navigation2/hook/cmake_prefix_path.ps1'
+[2.156s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_navigation2/hook/cmake_prefix_path.dsv'
+[2.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_navigation2/hook/cmake_prefix_path.sh'
+[2.156s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib'
+[2.156s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[2.157s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/pkgconfig/turtlebot3_navigation2.pc'
+[2.157s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/python3.10/site-packages'
+[2.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_navigation2', 'pythonpath')
+[2.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_navigation2/hook/pythonpath.ps1'
+[2.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_navigation2/hook/pythonpath.dsv'
+[2.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_navigation2/hook/pythonpath.sh'
+[2.166s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[2.176s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_navigation2/package.ps1'
+[2.176s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_navigation2/package.dsv'
+[2.177s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_navigation2/package.sh'
+[2.177s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_navigation2/package.bash'
+[2.177s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_navigation2/package.zsh'
+[2.177s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/irobot_workspace/install/share/colcon-core/packages/turtlebot3_navigation2)
+[2.178s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_description)
+[2.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/irobot_workspace/build/turtlebot3_description
+[2.189s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake module files
+[2.190s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake config files
+[2.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description', 'cmake_prefix_path')
+[2.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_description/hook/cmake_prefix_path.ps1'
+[2.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_description/hook/cmake_prefix_path.dsv'
+[2.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_description/hook/cmake_prefix_path.sh'
+[2.198s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib'
+[2.198s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[2.198s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/pkgconfig/turtlebot3_description.pc'
+[2.198s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/python3.10/site-packages'
+[2.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description', 'pythonpath')
+[2.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_description/hook/pythonpath.ps1'
+[2.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_description/hook/pythonpath.dsv'
+[2.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_description/hook/pythonpath.sh'
+[2.208s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[2.219s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_description/package.ps1'
+[2.219s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_description/package.dsv'
+[2.219s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_description/package.sh'
+[2.220s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_description/package.bash'
+[2.220s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_description/package.zsh'
+[2.220s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/irobot_workspace/install/share/colcon-core/packages/turtlebot3_description)
+[2.246s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_description)
+[2.257s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake module files
+[2.257s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake config files
+[2.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description', 'cmake_prefix_path')
+[2.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_description/hook/cmake_prefix_path.ps1'
+[2.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_description/hook/cmake_prefix_path.dsv'
+[2.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_description/hook/cmake_prefix_path.sh'
+[2.267s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib'
+[2.267s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[2.267s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/pkgconfig/turtlebot3_description.pc'
+[2.267s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/python3.10/site-packages'
+[2.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description', 'pythonpath')
+[2.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_description/hook/pythonpath.ps1'
+[2.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_description/hook/pythonpath.dsv'
+[2.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_description/hook/pythonpath.sh'
+[2.278s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[2.286s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_description/package.ps1'
+[2.286s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_description/package.dsv'
+[2.286s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_description/package.sh'
+[2.287s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_description/package.bash'
+[2.287s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_description/package.zsh'
+[2.287s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/irobot_workspace/install/share/colcon-core/packages/turtlebot3_description)
+[2.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/irobot_workspace/src/DynamixelSDK/dynamixel_sdk_custom_interfaces -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[2.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/irobot_workspace/build/dynamixel_sdk_custom_interfaces -- -j20 -l20
+[2.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/irobot_workspace/build/dynamixel_sdk -- -j20 -l20
+[2.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/irobot_workspace/build/dynamixel_sdk
+[2.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/irobot_workspace/src/turtlebot3_msgs -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[2.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/irobot_workspace/build/turtlebot3_msgs -- -j20 -l20
+[2.630s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[2.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/irobot_workspace/build/dynamixel_sdk
+[2.639s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake module files
+[2.639s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake config files
+[2.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[2.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[2.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[2.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[2.651s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib'
+[2.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[2.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[2.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[2.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[2.660s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[2.660s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/pkgconfig/dynamixel_sdk.pc'
+[2.660s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/python3.10/site-packages'
+[2.660s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'pythonpath')
+[2.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk/hook/pythonpath.ps1'
+[2.668s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk/hook/pythonpath.dsv'
+[2.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk/hook/pythonpath.sh'
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[2.677s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk/package.ps1'
+[2.678s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk/package.dsv'
+[2.679s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk/package.sh'
+[2.679s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk/package.bash'
+[2.679s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk/package.zsh'
+[2.679s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/irobot_workspace/install/share/colcon-core/packages/dynamixel_sdk)
+[2.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[2.724s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake module files
+[2.724s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake config files
+[2.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[2.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[2.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[2.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[2.733s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib'
+[2.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[2.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[2.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[2.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[2.741s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[2.741s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/pkgconfig/dynamixel_sdk.pc'
+[2.742s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/python3.10/site-packages'
+[2.742s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'pythonpath')
+[2.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk/hook/pythonpath.ps1'
+[2.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk/hook/pythonpath.dsv'
+[2.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk/hook/pythonpath.sh'
+[2.750s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[2.761s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk/package.ps1'
+[2.763s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk/package.dsv'
+[2.764s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk/package.sh'
+[2.765s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk/package.bash'
+[2.765s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk/package.zsh'
+[2.765s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/irobot_workspace/install/share/colcon-core/packages/dynamixel_sdk)
+[3.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/irobot_workspace/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[3.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/irobot_workspace/build/turtlebot3_gazebo -- -j20 -l20
+[4.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/irobot_workspace/build/dynamixel_sdk_custom_interfaces -- -j20 -l20
+[5.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/irobot_workspace/build/dynamixel_sdk_custom_interfaces
+[5.813s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[5.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/irobot_workspace/build/dynamixel_sdk_custom_interfaces
+[5.822s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake module files
+[5.822s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake config files
+[5.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[5.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[5.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[5.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[5.832s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib'
+[5.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[5.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[5.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[5.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[5.840s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[5.840s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[5.840s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/python3.10/site-packages'
+[5.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'pythonpath')
+[5.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.ps1'
+[5.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.dsv'
+[5.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.sh'
+[5.855s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[5.864s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[5.864s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[5.865s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/package.sh'
+[5.865s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/package.bash'
+[5.865s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[5.865s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/irobot_workspace/install/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[5.916s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[5.923s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake module files
+[5.924s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake config files
+[5.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[5.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[5.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[5.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[5.933s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib'
+[5.933s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[5.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[5.940s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[5.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[5.941s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[5.942s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[5.942s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/python3.10/site-packages'
+[5.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'pythonpath')
+[5.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.ps1'
+[5.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.dsv'
+[5.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.sh'
+[5.951s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[5.959s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[5.960s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[5.960s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/package.sh'
+[5.961s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/package.bash'
+[5.961s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[5.961s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/irobot_workspace/install/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[5.962s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/irobot_workspace/src/DynamixelSDK/dynamixel_sdk_examples' with build type 'ament_cmake'
+[5.962s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/irobot_workspace/src/DynamixelSDK/dynamixel_sdk_examples'
+[5.971s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.971s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/irobot_workspace/src/DynamixelSDK/dynamixel_sdk_examples -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[6.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/irobot_workspace/src/DynamixelSDK/dynamixel_sdk_examples -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[6.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/irobot_workspace/build/dynamixel_sdk_examples -- -j20 -l20
+[7.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/irobot_workspace/build/turtlebot3_msgs -- -j20 -l20
+[8.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/irobot_workspace/build/turtlebot3_msgs
+[9.093s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_msgs)
+[9.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/irobot_workspace/build/turtlebot3_msgs
+[9.106s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake module files
+[9.106s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake config files
+[9.107s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_msgs', 'cmake_prefix_path')
+[9.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/hook/cmake_prefix_path.ps1'
+[9.115s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/hook/cmake_prefix_path.dsv'
+[9.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/hook/cmake_prefix_path.sh'
+[9.116s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib'
+[9.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_msgs', 'ld_library_path_lib')
+[9.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/hook/ld_library_path_lib.ps1'
+[9.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/hook/ld_library_path_lib.dsv'
+[9.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/hook/ld_library_path_lib.sh'
+[9.124s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[9.124s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/pkgconfig/turtlebot3_msgs.pc'
+[9.124s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/python3.10/site-packages'
+[9.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_msgs', 'pythonpath')
+[9.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/hook/pythonpath.ps1'
+[9.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/hook/pythonpath.dsv'
+[9.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/hook/pythonpath.sh'
+[9.133s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[9.141s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/package.ps1'
+[9.142s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/package.dsv'
+[9.142s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/package.sh'
+[9.142s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/package.bash'
+[9.143s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/package.zsh'
+[9.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/irobot_workspace/install/share/colcon-core/packages/turtlebot3_msgs)
+[9.241s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_msgs)
+[9.248s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake module files
+[9.249s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake config files
+[9.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_msgs', 'cmake_prefix_path')
+[9.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/hook/cmake_prefix_path.ps1'
+[9.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/hook/cmake_prefix_path.dsv'
+[9.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/hook/cmake_prefix_path.sh'
+[9.257s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib'
+[9.257s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_msgs', 'ld_library_path_lib')
+[9.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/hook/ld_library_path_lib.ps1'
+[9.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/hook/ld_library_path_lib.dsv'
+[9.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/hook/ld_library_path_lib.sh'
+[9.270s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[9.271s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/pkgconfig/turtlebot3_msgs.pc'
+[9.271s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/python3.10/site-packages'
+[9.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_msgs', 'pythonpath')
+[9.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/hook/pythonpath.ps1'
+[9.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/hook/pythonpath.dsv'
+[9.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/hook/pythonpath.sh'
+[9.281s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[9.289s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/package.ps1'
+[9.290s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/package.dsv'
+[9.290s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/package.sh'
+[9.291s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/package.bash'
+[9.291s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_msgs/package.zsh'
+[9.291s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/irobot_workspace/install/share/colcon-core/packages/turtlebot3_msgs)
+[9.292s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/irobot_workspace/src/turtlebot3/turtlebot3_node' with build type 'ament_cmake'
+[9.292s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/irobot_workspace/src/turtlebot3/turtlebot3_node'
+[9.300s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.300s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.318s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspaces/irobot_workspace/src/turtlebot3/turtlebot3_example' with build type 'ament_python'
+[9.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_example', 'ament_prefix_path')
+[9.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_example/hook/ament_prefix_path.ps1'
+[9.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_example/hook/ament_prefix_path.dsv'
+[9.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_example/hook/ament_prefix_path.sh'
+[9.335s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.351s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/irobot_workspace/src/turtlebot3_simulations/turtlebot3_fake_node' with build type 'ament_cmake'
+[9.351s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/irobot_workspace/src/turtlebot3_simulations/turtlebot3_fake_node'
+[9.359s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.359s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_node': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/irobot_workspace/src/turtlebot3/turtlebot3_node -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[9.612s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspaces/irobot_workspace/src/turtlebot3/turtlebot3_example'
+[9.620s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.620s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/irobot_workspace/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[10.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_example': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/build/turtlebot3_example/prefix_override:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /workspaces/irobot_workspace/build/turtlebot3_example/build --no-deps install_data
+[10.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_example', 'pythonpath_develop')
+[10.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/build/turtlebot3_example/prefix_override:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /workspaces/irobot_workspace/build/turtlebot3_example/build --no-deps install_data
+[10.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/build/turtlebot3_example/share/turtlebot3_example/hook/pythonpath_develop.ps1'
+[10.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/build/turtlebot3_example/share/turtlebot3_example/hook/pythonpath_develop.dsv'
+[10.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/build/turtlebot3_example/share/turtlebot3_example/hook/pythonpath_develop.sh'
+[10.600s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake module files
+[10.601s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake config files
+[10.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_example', 'cmake_prefix_path')
+[10.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_example/hook/cmake_prefix_path.ps1'
+[10.611s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_example/hook/cmake_prefix_path.dsv'
+[10.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_example/hook/cmake_prefix_path.sh'
+[10.612s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib'
+[10.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_example', 'ld_library_path_lib')
+[10.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_example/hook/ld_library_path_lib.ps1'
+[10.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_example/hook/ld_library_path_lib.dsv'
+[10.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_example/hook/ld_library_path_lib.sh'
+[10.622s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[10.622s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/pkgconfig/turtlebot3_example.pc'
+[10.623s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/python3.10/site-packages'
+[10.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_example', 'pythonpath')
+[10.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_example/hook/pythonpath.ps1'
+[10.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_example/hook/pythonpath.dsv'
+[10.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_example/hook/pythonpath.sh'
+[10.635s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[10.635s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_example)
+[10.647s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_example/package.ps1'
+[10.647s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_example/package.dsv'
+[10.648s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_example/package.sh'
+[10.649s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_example/package.bash'
+[10.649s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_example/package.zsh'
+[10.649s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/irobot_workspace/install/share/colcon-core/packages/turtlebot3_example)
+[11.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/irobot_workspace/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[11.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/irobot_workspace/build/turtlebot3_fake_node -- -j20 -l20
+[11.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/irobot_workspace/src/turtlebot3/turtlebot3_node -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[11.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_node': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/irobot_workspace/build/turtlebot3_node -- -j20 -l20
+[176.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/irobot_workspace/build/dynamixel_sdk_examples -- -j20 -l20
+[176.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/irobot_workspace/build/dynamixel_sdk_examples
+[176.684s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[176.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/irobot_workspace/build/dynamixel_sdk_examples
+[176.850s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake module files
+[176.852s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake config files
+[176.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[176.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[176.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[176.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[176.938s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib'
+[176.938s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'ld_library_path_lib')
+[176.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/hook/ld_library_path_lib.ps1'
+[176.947s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/hook/ld_library_path_lib.dsv'
+[176.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/hook/ld_library_path_lib.sh'
+[176.948s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[176.948s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[176.957s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/python3.10/site-packages'
+[176.958s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'pythonpath')
+[176.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/hook/pythonpath.ps1'
+[176.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/hook/pythonpath.dsv'
+[176.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/hook/pythonpath.sh'
+[176.969s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[176.979s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/package.ps1'
+[176.982s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/package.dsv'
+[176.983s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/package.sh'
+[176.985s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/package.bash'
+[176.988s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/package.zsh'
+[176.991s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/irobot_workspace/install/share/colcon-core/packages/dynamixel_sdk_examples)
+[177.017s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[177.023s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake module files
+[177.024s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake config files
+[177.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[177.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[177.034s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[177.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[177.034s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib'
+[177.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'ld_library_path_lib')
+[177.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/hook/ld_library_path_lib.ps1'
+[177.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/hook/ld_library_path_lib.dsv'
+[177.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/hook/ld_library_path_lib.sh'
+[177.043s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[177.043s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[177.043s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/python3.10/site-packages'
+[177.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'pythonpath')
+[177.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/hook/pythonpath.ps1'
+[177.053s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/hook/pythonpath.dsv'
+[177.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/hook/pythonpath.sh'
+[177.053s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[177.061s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/package.ps1'
+[177.062s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/package.dsv'
+[177.062s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/package.sh'
+[177.062s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/package.bash'
+[177.063s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/package.zsh'
+[177.063s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/irobot_workspace/install/share/colcon-core/packages/dynamixel_sdk_examples)
+[180.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/irobot_workspace/build/turtlebot3_fake_node -- -j20 -l20
+[180.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/irobot_workspace/build/turtlebot3_fake_node
+[180.578s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[180.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/irobot_workspace/build/turtlebot3_fake_node
+[180.587s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake module files
+[180.587s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake config files
+[180.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[180.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[180.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[180.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[180.596s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib'
+[180.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'ld_library_path_lib')
+[180.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/hook/ld_library_path_lib.ps1'
+[180.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/hook/ld_library_path_lib.dsv'
+[180.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/hook/ld_library_path_lib.sh'
+[180.604s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[180.604s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/pkgconfig/turtlebot3_fake_node.pc'
+[180.604s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/python3.10/site-packages'
+[180.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'pythonpath')
+[180.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/hook/pythonpath.ps1'
+[180.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/hook/pythonpath.dsv'
+[180.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/hook/pythonpath.sh'
+[180.615s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[180.622s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/package.ps1'
+[180.623s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/package.dsv'
+[180.623s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/package.sh'
+[180.623s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/package.bash'
+[180.623s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/package.zsh'
+[180.624s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/irobot_workspace/install/share/colcon-core/packages/turtlebot3_fake_node)
+[180.646s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[180.654s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake module files
+[180.654s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake config files
+[180.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[180.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[180.663s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[180.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[180.663s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib'
+[180.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'ld_library_path_lib')
+[180.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/hook/ld_library_path_lib.ps1'
+[180.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/hook/ld_library_path_lib.dsv'
+[180.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/hook/ld_library_path_lib.sh'
+[180.672s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[180.672s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/pkgconfig/turtlebot3_fake_node.pc'
+[180.672s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/python3.10/site-packages'
+[180.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'pythonpath')
+[180.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/hook/pythonpath.ps1'
+[180.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/hook/pythonpath.dsv'
+[180.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/hook/pythonpath.sh'
+[180.680s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[180.686s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/package.ps1'
+[180.687s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/package.dsv'
+[180.688s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/package.sh'
+[180.688s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/package.bash'
+[180.689s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_fake_node/package.zsh'
+[180.689s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/irobot_workspace/install/share/colcon-core/packages/turtlebot3_fake_node)
+[189.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_gazebo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/irobot_workspace/build/turtlebot3_gazebo -- -j20 -l20
+[189.320s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[189.327s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake module files
+[189.327s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install' for CMake config files
+[189.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[189.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[189.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[189.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[189.336s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib'
+[189.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'ld_library_path_lib')
+[189.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_gazebo/hook/ld_library_path_lib.ps1'
+[189.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_gazebo/hook/ld_library_path_lib.dsv'
+[189.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_gazebo/hook/ld_library_path_lib.sh'
+[189.344s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[189.344s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/pkgconfig/turtlebot3_gazebo.pc'
+[189.344s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/lib/python3.10/site-packages'
+[189.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'pythonpath')
+[189.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_gazebo/hook/pythonpath.ps1'
+[189.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_gazebo/hook/pythonpath.dsv'
+[189.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/irobot_workspace/install/share/turtlebot3_gazebo/hook/pythonpath.sh'
+[189.352s] Level 1:colcon.colcon_core.environment:checking '/workspaces/irobot_workspace/install/bin'
+[189.358s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_gazebo/package.ps1'
+[189.359s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/irobot_workspace/install/share/turtlebot3_gazebo/package.dsv'
+[189.359s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_gazebo/package.sh'
+[189.359s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_gazebo/package.bash'
+[189.360s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/irobot_workspace/install/share/turtlebot3_gazebo/package.zsh'
+[189.360s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/irobot_workspace/install/share/colcon-core/packages/turtlebot3_gazebo)
+[192.442s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[192.444s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[192.446s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[192.447s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[192.510s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[192.511s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[192.511s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[192.511s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[192.515s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[192.516s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[192.527s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/irobot_workspace/install/local_setup.ps1'
+[192.529s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/irobot_workspace/install/_local_setup_util_ps1.py'
+[192.531s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/irobot_workspace/install/setup.ps1'
+[192.539s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/irobot_workspace/install/local_setup.sh'
+[192.540s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/irobot_workspace/install/_local_setup_util_sh.py'
+[192.541s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/irobot_workspace/install/setup.sh'
+[192.548s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/irobot_workspace/install/local_setup.bash'
+[192.549s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/irobot_workspace/install/setup.bash'
+[192.556s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/irobot_workspace/install/local_setup.zsh'
+[192.557s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/irobot_workspace/install/setup.zsh'

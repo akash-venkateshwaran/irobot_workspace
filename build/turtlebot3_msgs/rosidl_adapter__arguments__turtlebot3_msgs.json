@@ -1,0 +1,11 @@
+{
+  "package_name": "turtlebot3_msgs",
+  "non_idl_tuples": [
+    "/workspaces/irobot_workspace/src/turtlebot3_msgs:msg/SensorState.msg",
+    "/workspaces/irobot_workspace/src/turtlebot3_msgs:msg/Sound.msg",
+    "/workspaces/irobot_workspace/src/turtlebot3_msgs:msg/VersionInfo.msg",
+    "/workspaces/irobot_workspace/src/turtlebot3_msgs:srv/Sound.srv",
+    "/workspaces/irobot_workspace/src/turtlebot3_msgs:srv/Dqn.srv",
+    "/workspaces/irobot_workspace/src/turtlebot3_msgs:action/Patrol.action"
+  ]
+}

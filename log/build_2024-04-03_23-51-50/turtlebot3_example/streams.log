@@ -1,0 +1,24 @@
+[1.171s] Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_example': PYTHONPATH=/workspaces/irobot_workspace/build/turtlebot3_example/prefix_override:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/build/turtlebot3_teleop:/workspaces/irobot_workspace/build/turtlebot3_example:/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /workspaces/irobot_workspace/build/turtlebot3_example/build --no-deps install_data
+[1.411s] running develop
+[1.413s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.413s]   warnings.warn(
+[1.415s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.415s]   warnings.warn(
+[1.530s] running egg_info
+[1.530s] writing turtlebot3_example.egg-info/PKG-INFO
+[1.531s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[1.531s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[1.531s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[1.532s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[1.534s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1.535s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1.536s] running build_ext
+[1.537s] Creating /workspaces/irobot_workspace/install/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[1.538s] Installing turtlebot3_obstacle_detection script to /workspaces/irobot_workspace/install/lib/turtlebot3_example
+[1.538s] Installing turtlebot3_patrol_client script to /workspaces/irobot_workspace/install/lib/turtlebot3_example
+[1.538s] Installing turtlebot3_patrol_server script to /workspaces/irobot_workspace/install/lib/turtlebot3_example
+[1.539s] Installing turtlebot3_position_control script to /workspaces/irobot_workspace/install/lib/turtlebot3_example
+[1.539s] 
+[1.539s] Installed /workspaces/irobot_workspace/build/turtlebot3_example
+[1.539s] running install_data
+[1.578s] Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_example' returned '0': PYTHONPATH=/workspaces/irobot_workspace/build/turtlebot3_example/prefix_override:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/build/turtlebot3_teleop:/workspaces/irobot_workspace/build/turtlebot3_example:/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /workspaces/irobot_workspace/build/turtlebot3_example/build --no-deps install_data

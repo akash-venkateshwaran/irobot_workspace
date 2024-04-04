@@ -1,0 +1,47 @@
+[0.027s] Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/irobot_workspace/src/turtlebot3_simulations/turtlebot3_simulations -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.090s] -- The CXX compiler identification is GNU 11.4.0
+[0.094s] -- Detecting C compiler ABI info
+[0.134s] -- Detecting C compiler ABI info - done
+[0.138s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.138s] -- Detecting C compile features
+[0.138s] -- Detecting C compile features - done
+[0.140s] -- Detecting CXX compiler ABI info
+[0.188s] -- Detecting CXX compiler ABI info - done
+[0.193s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.193s] -- Detecting CXX compile features
+[0.193s] -- Detecting CXX compile features - done
+[0.195s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.285s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.327s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.402s] -- Configuring done
+[0.404s] -- Generating done
+[0.405s] [33mCMake Warning:
+[0.405s]   Manually-specified variables were not used by the project:
+[0.405s] 
+[0.405s]     CMAKE_EXPORT_COMPILE_COMMANDS
+[0.405s] 
+[0.405s] [0m
+[0.405s] -- Build files have been written to: /workspaces/irobot_workspace/build/turtlebot3_simulations
+[0.409s] Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/irobot_workspace/src/turtlebot3_simulations/turtlebot3_simulations -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/irobot_workspace/install
+[0.410s] Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/irobot_workspace/build/turtlebot3_simulations -- -j20 -l20
+[0.429s] Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/irobot_workspace/build/turtlebot3_simulations -- -j20 -l20
+[0.441s] Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/irobot_workspace/build/turtlebot3_simulations
+[0.444s] -- Install configuration: "RelWithDebInfo"
+[0.445s] -- Execute custom install script
+[0.445s] -- Symlinking: /workspaces/irobot_workspace/install/share/ament_index/resource_index/package_run_dependencies/turtlebot3_simulations
+[0.450s] -- Symlinking: /workspaces/irobot_workspace/install/share/ament_index/resource_index/parent_prefix_path/turtlebot3_simulations
+[0.454s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_simulations/environment/ament_prefix_path.sh
+[0.459s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_simulations/environment/ament_prefix_path.dsv
+[0.463s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_simulations/environment/path.sh
+[0.468s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_simulations/environment/path.dsv
+[0.472s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_simulations/local_setup.bash
+[0.476s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_simulations/local_setup.sh
+[0.481s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_simulations/local_setup.zsh
+[0.485s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_simulations/local_setup.dsv
+[0.489s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_simulations/package.dsv
+[0.493s] -- Symlinking: /workspaces/irobot_workspace/install/share/ament_index/resource_index/packages/turtlebot3_simulations
+[0.498s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig.cmake
+[0.502s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig-version.cmake
+[0.505s] -- Symlinking: /workspaces/irobot_workspace/install/share/turtlebot3_simulations/package.xml
+[0.512s] Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/workspaces/irobot_workspace/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/irobot_workspace/install:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/irobot_workspace/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/irobot_workspace/install/lib/python3.10/site-packages:/workspaces/irobot_workspace/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/irobot_workspace/build/turtlebot3_simulations

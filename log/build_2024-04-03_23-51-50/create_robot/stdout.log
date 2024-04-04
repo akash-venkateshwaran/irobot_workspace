@@ -1,0 +1,35 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspaces/irobot_workspace/build/create_robot
+-- Install configuration: "RelWithDebInfo"
+-- Execute custom install script
+-- Symlinking: /workspaces/irobot_workspace/install/share/ament_index/resource_index/package_run_dependencies/create_robot
+-- Symlinking: /workspaces/irobot_workspace/install/share/ament_index/resource_index/parent_prefix_path/create_robot
+-- Symlinking: /workspaces/irobot_workspace/install/share/create_robot/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/irobot_workspace/install/share/create_robot/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/irobot_workspace/install/share/create_robot/environment/path.sh
+-- Symlinking: /workspaces/irobot_workspace/install/share/create_robot/environment/path.dsv
+-- Symlinking: /workspaces/irobot_workspace/install/share/create_robot/local_setup.bash
+-- Symlinking: /workspaces/irobot_workspace/install/share/create_robot/local_setup.sh
+-- Symlinking: /workspaces/irobot_workspace/install/share/create_robot/local_setup.zsh
+-- Symlinking: /workspaces/irobot_workspace/install/share/create_robot/local_setup.dsv
+-- Symlinking: /workspaces/irobot_workspace/install/share/create_robot/package.dsv
+-- Symlinking: /workspaces/irobot_workspace/install/share/ament_index/resource_index/packages/create_robot
+-- Symlinking: /workspaces/irobot_workspace/install/share/create_robot/cmake/create_robotConfig.cmake
+-- Symlinking: /workspaces/irobot_workspace/install/share/create_robot/cmake/create_robotConfig-version.cmake
+-- Symlinking: /workspaces/irobot_workspace/install/share/create_robot/package.xml

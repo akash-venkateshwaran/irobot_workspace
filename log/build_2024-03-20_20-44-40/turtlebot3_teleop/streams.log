@@ -1,0 +1,25 @@
+[0.618s] Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_teleop': PYTHONPATH=/workspaces/irobot_workspace/build/turtlebot3_teleop/prefix_override:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /workspaces/irobot_workspace/build/turtlebot3_teleop/build --no-deps install_data
+[0.832s] running develop
+[0.834s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.834s]   warnings.warn(
+[0.837s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.837s]   warnings.warn(
+[0.937s] running egg_info
+[0.938s] creating turtlebot3_teleop.egg-info
+[0.938s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[0.938s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[0.938s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[0.939s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[0.941s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[0.941s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[0.941s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[0.941s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[0.943s] running build_ext
+[0.943s] Creating /workspaces/irobot_workspace/install/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)
+[0.944s] Installing teleop_keyboard script to /workspaces/irobot_workspace/install/lib/turtlebot3_teleop
+[0.944s] 
+[0.944s] Installed /workspaces/irobot_workspace/build/turtlebot3_teleop
+[0.944s] running install_data
+[0.944s] copying resource/turtlebot3_teleop -> /workspaces/irobot_workspace/install/share/ament_index/resource_index/packages
+[0.945s] copying package.xml -> /workspaces/irobot_workspace/install/share/turtlebot3_teleop
+[1.070s] Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_teleop' returned '0': PYTHONPATH=/workspaces/irobot_workspace/build/turtlebot3_teleop/prefix_override:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /workspaces/irobot_workspace/build/turtlebot3_teleop/build --no-deps install_data

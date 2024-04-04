@@ -1,0 +1,12 @@
+{
+  "package_name": "create_msgs",
+  "non_idl_tuples": [
+    "/workspaces/irobot_workspace/src/create_robot/create_msgs:msg/Bumper.msg",
+    "/workspaces/irobot_workspace/src/create_robot/create_msgs:msg/ChargingState.msg",
+    "/workspaces/irobot_workspace/src/create_robot/create_msgs:msg/DefineSong.msg",
+    "/workspaces/irobot_workspace/src/create_robot/create_msgs:msg/Mode.msg",
+    "/workspaces/irobot_workspace/src/create_robot/create_msgs:msg/PlaySong.msg",
+    "/workspaces/irobot_workspace/src/create_robot/create_msgs:msg/MotorSetpoint.msg",
+    "/workspaces/irobot_workspace/src/create_robot/create_msgs:msg/Cliff.msg"
+  ]
+}

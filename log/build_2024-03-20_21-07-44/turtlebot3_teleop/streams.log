@@ -1,0 +1,21 @@
+[0.837s] Invoking command in '/workspaces/irobot_workspace/build/turtlebot3_teleop': PYTHONPATH=/workspaces/irobot_workspace/build/turtlebot3_teleop/prefix_override:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /workspaces/irobot_workspace/build/turtlebot3_teleop/build --no-deps install_data
+[1.019s] running develop
+[1.021s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.021s]   warnings.warn(
+[1.022s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.022s]   warnings.warn(
+[1.112s] running egg_info
+[1.112s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[1.112s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[1.113s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[1.113s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[1.113s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[1.114s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.115s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.116s] running build_ext
+[1.117s] Creating /workspaces/irobot_workspace/install/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)
+[1.117s] Installing teleop_keyboard script to /workspaces/irobot_workspace/install/lib/turtlebot3_teleop
+[1.118s] 
+[1.118s] Installed /workspaces/irobot_workspace/build/turtlebot3_teleop
+[1.118s] running install_data
+[1.289s] Invoked command in '/workspaces/irobot_workspace/build/turtlebot3_teleop' returned '0': PYTHONPATH=/workspaces/irobot_workspace/build/turtlebot3_teleop/prefix_override:/workspaces/irobot_workspace/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /workspaces/irobot_workspace/build/turtlebot3_teleop/build --no-deps install_data

@@ -1,0 +1,16 @@
+/workspaces/irobot_workspace/install/lib/dynamixel_sdk_examples/read_write_node
+/workspaces/irobot_workspace/install/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+/workspaces/irobot_workspace/install/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/environment/path.sh
+/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/environment/path.dsv
+/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/local_setup.bash
+/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/local_setup.sh
+/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/local_setup.zsh
+/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/local_setup.dsv
+/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/package.dsv
+/workspaces/irobot_workspace/install/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+/workspaces/irobot_workspace/install/share/dynamixel_sdk_examples/package.xml

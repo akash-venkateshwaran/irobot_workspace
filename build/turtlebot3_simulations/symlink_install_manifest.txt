@@ -1,0 +1,15 @@
+/workspaces/irobot_workspace/install/share/ament_index/resource_index/package_run_dependencies/turtlebot3_simulations
+/workspaces/irobot_workspace/install/share/ament_index/resource_index/parent_prefix_path/turtlebot3_simulations
+/workspaces/irobot_workspace/install/share/turtlebot3_simulations/environment/ament_prefix_path.sh
+/workspaces/irobot_workspace/install/share/turtlebot3_simulations/environment/ament_prefix_path.dsv
+/workspaces/irobot_workspace/install/share/turtlebot3_simulations/environment/path.sh
+/workspaces/irobot_workspace/install/share/turtlebot3_simulations/environment/path.dsv
+/workspaces/irobot_workspace/install/share/turtlebot3_simulations/local_setup.bash
+/workspaces/irobot_workspace/install/share/turtlebot3_simulations/local_setup.sh
+/workspaces/irobot_workspace/install/share/turtlebot3_simulations/local_setup.zsh
+/workspaces/irobot_workspace/install/share/turtlebot3_simulations/local_setup.dsv
+/workspaces/irobot_workspace/install/share/turtlebot3_simulations/package.dsv
+/workspaces/irobot_workspace/install/share/ament_index/resource_index/packages/turtlebot3_simulations
+/workspaces/irobot_workspace/install/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig.cmake
+/workspaces/irobot_workspace/install/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig-version.cmake
+/workspaces/irobot_workspace/install/share/turtlebot3_simulations/package.xml
