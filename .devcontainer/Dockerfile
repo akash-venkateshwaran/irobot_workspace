@@ -56,6 +56,18 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
+# Install rqt_graph
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends  ros-humble-rqt-graph \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install teleop_twist_keyboard
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends  ros-humble-teleop-twist-keyboard \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
 # git cloned https://github.com/AutonomyLab/create_robot manually. Instructions on their github
 # git cloned https://github.com/ROBOTIS-GIT/turtlebot3 manually
 # To change the display  >>export DISPLAY=:0
